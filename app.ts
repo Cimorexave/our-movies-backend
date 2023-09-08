@@ -8,14 +8,10 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get("/movies", (req: Request, res: Response) => {
+    res.json("here are movies for you.");
+})
 
 app.listen(3030, () => {
     log(`server running on port 3030`);
 });
-
-
-// endpoints
-app.get("/movies", (req: Request, res: Response) => {
-    log(`movies requested`);
-    res.json("here are movies for you.");
-})
