@@ -1,12 +1,12 @@
 {
   "name": "our-movies-backend",
   "version": "1.0.0",
-  "description": "",
+  "description": "a small backend for my mobile to connect to the database",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sina Cimorexave Sadeqi",
   "license": "ISC"
 }
