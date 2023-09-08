@@ -2,7 +2,7 @@
   "name": "our-movies-backend",
   "version": "1.0.0",
   "description": "a small backend for my mobile to connect to the database",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
