@@ -4,7 +4,8 @@
   "description": "a small backend for my mobile to connect to the database",
   "main": "app.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.ts"
   },
   "keywords": [],
   "author": "Sina Cimorexave Sadeqi",
