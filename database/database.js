@@ -16,6 +16,10 @@ class Database {
     async connect(url) {
         return await mongoose.connect(url,);
     }
+    async post(props) {
+        const newMember = new this.model({ ...props });
+        return await newMember.save();
+    }
 }
 
 export default Database;
