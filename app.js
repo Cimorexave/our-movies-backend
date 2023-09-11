@@ -18,7 +18,6 @@ app.use(json());
 app.use("/movies/", movies);
 
 
-
-app.listen(3030, () => {
+app.listen(process.env.SERVER_PORT, () => {
     log(`server running on port 3030`);
 });
