@@ -1,7 +1,11 @@
 const { log } = console;
+
 import cors from "cors";
 import express, { json } from "express";
 import movies from "./routes/movies.js";
+import { config } from "dotenv";
+config();
+
 
 const app = express();
 app.use(cors());
